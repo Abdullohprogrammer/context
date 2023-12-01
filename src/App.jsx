@@ -1,19 +1,3 @@
-
-// import './App.css'
-
-// function App() {
-
-
-//   return (
-//     <>
-//       <h2>hdnf</h2>
-//     </>
-//   )
-// }
-
-// export default App
-
-
 import React, { useState } from 'react';
 import { useAuth } from './AuthContext';
 
@@ -23,9 +7,7 @@ const SignIn = () => {
   const [password, setPassword] = useState('');
 
   const handleSignIn = () => {
-    // Validate username and password, then perform sign-in
     signIn({ username, password });
-    // You can implement API calls or any authentication mechanism here
   };
 
   return (
